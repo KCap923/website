@@ -4,7 +4,7 @@ body {
   
   .container {
   border: 12px double black;
-  width: 206.5vh;
+  width: 300vh;
   height: 13vh;
   }
   
@@ -12,11 +12,22 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 1px;
+  padding: 20px;
   font-family: "Abril Fatface", serif;
   font-weight: 300;
   font-style: normal;
   }
   
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: "Abril Fatface", serif;
+  }
   
-  
+#table {
+  display: flex;
+  justify-content: center;
+  font-family: "Abril Fatface", serif;
+  font-size: 50px;
+}
