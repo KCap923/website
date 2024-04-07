@@ -1,5 +1,5 @@
 body {
-  background-color: #DDDDDD;
+  background-color: #EEEDEB !important;
   }
   
   .container {
@@ -22,9 +22,14 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    font-family: "Abril Fatface", serif;
+    padding-bottom: 40px;
+    font-family: "Abril Fatface", serif; 
   }
   
+  #library-heading {
+    color: #8CB9BD; 
+    animation-duration: 2s;
+  }
 
   .container h1 {
     height: 98px;
