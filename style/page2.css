@@ -20,14 +20,34 @@ body {
   
   h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 40px;
     font-family: "Abril Fatface", serif;
   }
+
+  
+.container h1 {
+  height: 98px;
+  margin-top: 6px;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: #DBA979;}
+  25%  {background-color: #ECCA9C;}
+  50%  {background-color: #E8EFCF;}
+  75%  {background-color: #AFD198;}
+  100% {background-color: #76885B;}
+}
   
 #table {
   display: flex;
-  justify-content: center;
-  font-family: "Abril Fatface", serif;
+  /* justify-content: center; */
+  font-family: "Cormorant Garamond", serif;
   font-size: 50px;
+  font-style: normal;
 }

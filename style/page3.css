@@ -25,5 +25,31 @@ body {
     font-family: "Abril Fatface", serif;
   }
   
+
+  .container h1 {
+    height: 98px;
+    margin-top: 6px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color: #DBA979;}
+    25%  {background-color: #ECCA9C;}
+    50%  {background-color: #E8EFCF;}
+    75%  {background-color: #AFD198;}
+    100% {background-color: #76885B;}
+  }
+
+  .img-reading {
+  display: flex;
+  margin-left: 610px;
+  width: 650px;
+
+
+  }
   
   
