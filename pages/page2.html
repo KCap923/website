@@ -74,25 +74,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <h1 class="animate__animated animate__fadeInDown" id="library-heading"> My Library </h1>
   
 <!-- My List -->
-<div class="book-list" id="book-list">
 
-<img src="../images/kids2.jpg" alt="children's books">
-<br>
-<img src="../images/read2.jpg" alt="stacked books">
-<br>
-<img src="../images/tbr2.jpg" alt="pile of books">
-
+<div class="card-group">
+  <div class="card">
+    <img src="../images/read2.jpg" class="card-img-top"  alt="stack of books">
+    <div class="card-body">
+      <h5 class="card-title">Books Read</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../images/kids2.jpg" class="card-img-top"  alt="childrens books">
+    <div class="card-body">
+      <h5 class="card-title">Childrens Books</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../images/tbr2.jpg" class="card-img-top" alt="unorganized books">
+    <div class="card-body">
+      <h5 class="card-title">TBR</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
 </div>
 
 
-
-
-
-
-
-
 <!-- Table -->
-<h1>Books Read This Year :</h1>
+<h1 class="animate__animated animate__fadeInDown style" id="table-h1" >Books Read This Year :</h1>
 <div class="table" id="table">
 <table>
   <tr>
@@ -118,7 +130,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     <tr>
     <th><div class="btn-group">
       <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-       Genres
+        Genres
       </button>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#">Fantasy</a></li>
