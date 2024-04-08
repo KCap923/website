@@ -39,7 +39,9 @@ body {
 #library-heading {
   color: #B3A398;
   animation-duration: 2s;
-  displ
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 
