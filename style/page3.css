@@ -27,9 +27,25 @@ body {
   }
   
   #library-heading {
-    color: #8CB9BD; 
+    color: #B3A398; 
     animation-duration: 2s;
   }
+
+.quote {
+  display: flex !important;
+  width: 150vh;
+  
+
+}
+
+.quote p {
+margin-left: 150px; 
+color: black !important;
+animation: fadeInRight;
+animation-duration: 3s;
+font-family: "EB Garamond", serif;
+font-size: 20px;
+}
 
   .container h1 {
     height: 98px;
@@ -42,17 +58,19 @@ body {
   }
   
   @keyframes example {
-    0%   {background-color: #DBA979;}
-    25%  {background-color: #ECCA9C;}
-    50%  {background-color: #E8EFCF;}
-    75%  {background-color: #AFD198;}
-    100% {background-color: #76885B;}
-  }
+    0%   {background-color: #76885b;}
+    25%  {background-color: #afd198;}
+    50%  {background-color: #e9d5da;}
+    75%  {background-color: #827397;}
+    100% {background-color: #4d4c7d;}
+        
+    }
 
   .img-reading {
   display: flex;
-  margin-left: 610px;
-  width: 650px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  width: 550px;
 
 
   }
