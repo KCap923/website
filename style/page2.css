@@ -66,13 +66,19 @@ body {
 
 #table-h1 {
   color: #B3A398;
-  animation-timing-function: ease-in;
-  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
   padding-bottom: 45px;
 }
 
 .card {
   display: flex; 
   justify-content: space-around; 
+  border-radius: 8px !important;
+  border: 6px solid white !important;
 }
 
+.col-sm-10 {
+  display: flex !important;
+  margin-left: 180px !important;
+}

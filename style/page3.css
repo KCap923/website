@@ -72,8 +72,12 @@ margin-bottom: 50px;
   margin-bottom: 100px;
   margin-left: 80px;
   width: 390px;
-  border: 5px solid white;
+  border: 6px solid white;
   border-radius: 8px;
   }
   
+  .form-h1 {
+    color: #B3A398;
+    animation-duration: 2s;
+  }
   
